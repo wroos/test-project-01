@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="utf-8"?>
+<?xml version="1.2" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="http://www.kbv.de/fhir/Profil/74_PR_AW_Patient" />
   <version value="1.00" />
@@ -50,7 +50,7 @@
     <element id="Patient.extension:aktuelle_Taetigkeit">
       <path value="Patient.extension" />
       <sliceName value="aktuelle_Taetigkeit" />
-      <max value="1" />
+      <max value="2" />
       <type>
         <code value="Extension" />
         <profile value="http://www.kbv.de/fhir/Profil/74_EX_AW_Patient_Aktuelle_Taetigkeit" />
